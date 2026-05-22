@@ -14,7 +14,7 @@ const SLIDE_IMAGES = [
 
 const LETTERS = {
   "sohee": {
-    title: "소희가 부모님께",
+    title: "소희 부모님께",
     subtitle: "천천히 마음을 담아 적었습니다.",
     text:
 `부모님 안녕하세요.
@@ -22,9 +22,9 @@ const LETTERS = {
 (여기에 편지 내용을 넣어주세요.)
 
 감사합니다.
-- 소희 드림`,
-    contactLabel: "소희 연락처",
-    contactNumber: "010-0000-0000",
+- 학준 올림`,
+    contactLabel: "예비 사위 연락처",
+    contactNumber: "010-4931-4535",
   },
   "hakjun": {
     title: "학준이 부모님께",
@@ -35,9 +35,9 @@ const LETTERS = {
 (여기에 편지 내용을 넣어주세요.)
 
 감사합니다.
-- 학준 드림`,
-    contactLabel: "학준 연락처",
-    contactNumber: "010-1111-1111",
+- 소희 올림`,
+    contactLabel: "예비 며느리 연락처",
+    contactNumber: "010-9878-6178",
   },
 };
 
