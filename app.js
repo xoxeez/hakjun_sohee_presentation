@@ -9,7 +9,7 @@ const SLIDE_IMAGES = [
     "images/4.png",
     "images/5.png",
     "images/6.png",
-    "images/7.png"
+    "images/7.png",
 ];
 
 const LETTERS = {
