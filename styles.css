@@ -822,3 +822,55 @@ input:focus {
     animation: none !important;
   }
 }
+
+/* ===== 아이폰 및 범용 웹 전체화면(Pseudo-fullscreen) 스타일 ===== */
+body.web-fullscreen .topbar,
+body.web-fullscreen .panel-head,
+body.web-fullscreen .heroNote,
+body.web-fullscreen .thumbs,
+body.web-fullscreen .panel-foot,
+body.web-fullscreen .footer {
+  display: none !important; /* 슬라이드 외의 다른 모든 요소 숨기기 */
+}
+
+body.web-fullscreen .view {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
+}
+
+body.web-fullscreen .panel {
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: #000 !important; /* 배경을 검은색으로 변경 */
+}
+
+body.web-fullscreen .slideStage {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background: #000;
+}
+
+body.web-fullscreen .slideFrame {
+  height: 100% !important;
+}
+
+/* 전체화면 힌트 텍스트 스타일 수정 (선택사항) */
+body.web-fullscreen .fullscreenHint {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  z-index: 10000;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 6px 12px;
+  border-radius: 20px;
+}
